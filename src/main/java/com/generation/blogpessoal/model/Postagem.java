@@ -9,7 +9,8 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "tb_postagens")
-public class Postagem {
+public class
+Postagem {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
