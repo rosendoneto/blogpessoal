@@ -8,7 +8,6 @@ import java.util.List;
 
 @Entity
 @Table(name = "tb_temas")
-
 public class Tema {
 
     @Id
