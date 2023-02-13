@@ -73,7 +73,6 @@ public class UsuarioService {
         return Optional.empty();
 
     }
-
     private String criptografarSenha(String senha) {
 
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
